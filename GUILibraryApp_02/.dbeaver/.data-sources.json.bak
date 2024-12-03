@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"hsqldb_embedded-19347050ba9-22f9a73480d66aca": {
+			"provider": "generic",
+			"driver": "hsqldb_embedded",
+			"name": "library_app",
+			"save-password": true,
+			"configuration": {
+				"database": "/home/clay/apps/data/library_app",
+				"url": "jdbc:hsqldb:file:/home/clay/apps/data/library_app",
+				"configurationType": "MANUAL",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {"hsqldb_embedded-19347050ba9-22f9a73480d66aca":{"PUBLIC":{"PUBLIC":{":BOOKS":{"constraints":{"VIRTUAL_PK":{"type":"vpk","attributes":["Index"]}}}}}}},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
