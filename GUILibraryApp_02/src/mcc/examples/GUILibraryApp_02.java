@@ -67,9 +67,9 @@ public class GUILibraryApp_02 extends JFrame {
     private void applyModernLookAndFeel() {
         try {
 //            UIManager.setLookAndFeel(new NimbusLookAndFeel());
-        	UIManager.setLookAndFeel(new FlatLightLaf());
+//        	UIManager.setLookAndFeel(new FlatLightLaf());
 //        	UIManager.setLookAndFeel(new FlatDarculaLaf());
-//        	UIManager.setLookAndFeel(new FlatIntelliJLaf());
+        	UIManager.setLookAndFeel(new FlatIntelliJLaf());
         	UIManager.put( "Button.arc", 999 );
         	UIManager.put( "TextComponent.arc", 500 );
         	UIManager.put( "TabbedPane.showTabSeparators", true );
