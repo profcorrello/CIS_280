@@ -66,14 +66,14 @@ public class GUILibraryApp_02 extends JFrame {
     
     private void applyModernLookAndFeel() {
         try {
-//            UIManager.setLookAndFeel(new NimbusLookAndFeel());
+            UIManager.setLookAndFeel(new NimbusLookAndFeel());
 //        	UIManager.setLookAndFeel(new FlatLightLaf());
 //        	UIManager.setLookAndFeel(new FlatDarculaLaf());
-        	UIManager.setLookAndFeel(new FlatIntelliJLaf());
-        	UIManager.put( "Button.arc", 999 );
-        	UIManager.put( "TextComponent.arc", 500 );
-        	UIManager.put( "TabbedPane.showTabSeparators", true );
-        	UIManager.put("Table.alternateRowColor", new java.awt.Color(240, 240, 240)); // Light gray
+//        	UIManager.setLookAndFeel(new FlatIntelliJLaf());
+//        	UIManager.put( "Button.arc", 999 );
+//        	UIManager.put( "TextComponent.arc", 500 );
+//        	UIManager.put( "TabbedPane.showTabSeparators", true );
+//        	UIManager.put("Table.alternateRowColor", new java.awt.Color(240, 240, 240)); // Light gray
         } catch (Exception e) {
             e.printStackTrace();
         }
